@@ -24,6 +24,6 @@ KNOWN BUGS:
 
 Future implementation:
 -Connect cloud with local database
--Populate the other pages under the drawer with the necesary functionalities
+-Populate the other pages under the drawer with the necessary functionalities
 
 

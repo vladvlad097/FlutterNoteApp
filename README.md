@@ -11,8 +11,8 @@ So far authentication is done only via email and password
 -Design: Custom theme, Draggable objects, Custom Floating Action Button
 Mostily visual stuff to help the user fell more confortable with using the app
 
--Shared Prefs: App Theme
-Changes the way the app looks from a wide palette of custom colors
+-Shared Prefs: 
+App Theme, changes the way the app looks from a wide range of custom colors
 
 KNOWN BUGS:
 -shared preferences does not load properly on reopening the app

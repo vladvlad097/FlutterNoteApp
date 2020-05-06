@@ -1,16 +1,29 @@
 # flutternoteapp
 
-A new Flutter application.
+Implemented functionalites so far: 
 
-## Getting Started
+-SQLite database: can update, delete, add, folders and notes
+The user is able to edit files, place them inside folders, lock them behind a password, and even customise the color of the folder.
 
-This project is a starting point for a Flutter application.
+-Firebase: authentication
+So far authentication is done only via email and password
 
-A few resources to get you started if this is your first Flutter project:
+-Design: Custom theme, Draggable objects, Custom Floating Action Button
+Mostily visual stuff to help the user fell more confortable with using the app
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+-Shared Prefs: App Theme
+Changes the way the app looks from a wide palette of custom colors
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+KNOWN BUGS:
+-shared preferences does not load properly on reopening the app
+-pop up error messages for some cases have not been implemented yet
+-User is not able to pull the folders or notes to a higher level in the herarchy. (Create an area on the top of the screen where the user can drag the objects and push them up the heirarchy)
+-on delete folder with heirarchy the rest of the files are not deleted and are stuck in the database to never be accesed again 
+(must make call to database with same parentID to delete all)
+
+
+Future implementation:
+-Connect cloud with local database
+-Populate the other pages under the drawer with the necesary functionalities
+
+

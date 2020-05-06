@@ -1,5 +1,9 @@
 # flutternoteapp
 
+visual demo:
+
+https://www.youtube.com/watch?v=WcaoqkuWigs&t=2s
+
 Implemented functionalites so far: 
 
 -SQLite database: can update, delete, add, folders and notes
